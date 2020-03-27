@@ -23,7 +23,7 @@ const BMI = () => {
                <div className="bmi-result-container">
                    <div className="bmi-result">
                        <div className="bmi-result-number">
-                           Bodi Mass Indez (BMI) = {bmiValue}
+                           Body Mass Indez (BMI) = {bmiValue}
                        </div>
                        <div className={`bmi-category ${bmiClass}`}>
                            {bmiCategory}
